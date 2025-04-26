@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to bottom, #dfe9f3, #ffffff);
+    text-align: center;
+  }
+ 
+  h1 {
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+ 
+  button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+ 
+  button:hover {
+    background-color: #1e8449;
+  }
+ 

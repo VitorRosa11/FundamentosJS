@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #fdfbfb22, #ebedee37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+ 
+ 
+  h1 {
+    margin-bottom: 25px;
+    color: #222;
+  }
+ 
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #9d2828;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+ 
+  button:hover {
+    background-color: #0f1759;
+  }
+ 

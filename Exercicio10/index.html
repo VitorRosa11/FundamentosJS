@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex10FundamentosJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício 10 - caixa de texto com alerta</h1>
+   <label for="campoTexto">Digite algo:</label><br>
+   <input type="text" id="campoTexto"/>
+   <button onclick="mostrarTexto()">Mostrar texto</button>
+   <script>
+    function mostrarTexto(){
+        const valor = document.getElementById("campoTexto").value;
+        alert("Você digitou: " + valor);
+    }
+   </script>
+</body>
+</html>

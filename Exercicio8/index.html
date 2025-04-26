@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex8FundamentosJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Exercício 8 - Criando variáveis de diferentes tipos: String, number, boolean, array, object, null e undefined.</h2>
+    <button onclick="mostrarTipos()">Mostrar tipos</button>
+    <script>
+        function mostrarTipos(){
+        let nome = "Vitor"; //String
+        let idade = 16; //number
+        let estudante = true; //boolean
+        let cores = ["Azul", "laranja", "verde"]; //array
+        let pessoa = {nome: "Vinícius", idade: 25}; //object
+        let vazio = null; //null
+        let indefinido; //undefined
+
+
+        console.log("String:", nome, "Tipo:", typeof nome);
+        console.log("number:", idade, "Tipo:", typeof idade);
+        console.log("boolean:", estudante, "Tipo:", typeof estudante);
+        console.log("array:", cores, "Tipo:", typeof cores);
+        console.log("object:", pessoa, "Tipo:", typeof pessoa);
+        console.log("null:", vazio, "Tipo:", typeof vazio);
+        console.log("undefined:", indefinido, "Tipo:", typeof indefinido);
+        }
+    </script>
+   
+</body>
+</html>
